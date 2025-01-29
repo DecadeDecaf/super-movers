@@ -42,6 +42,15 @@ if (tile_touching()) {
 	y -= yv;
 }
 
+var _target = instance_nearest(x, y, obj_target);
+
+if (instance_exists(_target)) {
+	if (point_distance(x, y, _target.x, _target.y) < 48 && _target.image_index == 0) {
+		_target.image_index = 1;
+		g.deliveries++;
+		g.timeleft = 60;
+	}
+}
 
 if (xv > 0.5 && image_xscale < 0) { image_xscale = 1; }
 if (xv < -0.5 && image_xscale > 0) { image_xscale = -1; }
