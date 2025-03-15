@@ -39,6 +39,7 @@
     {"id":{"name":"obj_target","path":"objects/obj_target/obj_target.yy",},},
     {"id":{"name":"spr_tiles_city","path":"sprites/spr_tiles_city/spr_tiles_city.yy",},},
     {"id":{"name":"fnt_regular","path":"fonts/fnt_regular/fnt_regular.yy",},},
+    {"id":{"name":"mus_theme","path":"sounds/mus_theme/mus_theme.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_compass","path":"sprites/spr_compass/spr_compass.yy",},},
     {"id":{"name":"spr_red_carpet_idle","path":"sprites/spr_red_carpet_idle/spr_red_carpet_idle.yy",},},

@@ -15,7 +15,7 @@ draw_set_circle_precision(64);
 g.vol = 0.75;
 audio_master_gain(g.vol);
 
-//audio_play_sound(mus_game, 1, true, 0.75);
+audio_play_sound(mus_theme, 1, true, 0.75);
 
 g.deliveries = 0;
 g.timeleft = 61;
